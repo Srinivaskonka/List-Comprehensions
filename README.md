@@ -4,7 +4,7 @@ A concise, example‑rich guide to Python list comprehensions—plus dict/set co
 
 ---
 
-## 📌 What is a List Comprehension?
+## What is a List Comprehension?
 
 A **list comprehension** is a compact way to create lists from iterables. It combines **looping**, **optional filtering**, and **optional transformation** in a single expression.
 
@@ -26,7 +26,7 @@ squares = [n*n for n in range(6)]  # [0, 1, 4, 9, 16, 25]
 
 ---
 
-## ✅ Quick Examples
+##  Quick Examples
 
 ### 1) Mapping (transform values)
 
@@ -79,7 +79,7 @@ clean = [s.strip() for s in raw if s.strip()]  # ["Alice", "Bob", "Charlie"]
 
 ---
 
-## 🧠 Advanced Patterns
+##  Advanced Patterns
 
 ### Comprehension Order (read left → right)
 
