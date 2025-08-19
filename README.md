@@ -113,7 +113,7 @@ roots = [root(n) for n in nums if root(n).is_integer()]
 
 ---
 
-## 🧩 Dict, Set, and Generator Variants
+##  Dict, Set, and Generator Variants
 
 ### Dict Comprehension
 
@@ -141,7 +141,7 @@ sum_of_squares = sum(n*n for n in range(1, 1_000_001))
 
 ---
 
-## ⚠️ Common Pitfalls
+##  Common Pitfalls
 
 * **Nested If vs. If/Else:** `if` filters elements; `A if cond else B` chooses a value.
 * **Readability:** If it’s too long or too nested, prefer a normal loop.
@@ -150,7 +150,7 @@ sum_of_squares = sum(n*n for n in range(1, 1_000_001))
 
 ---
 
-## ⏱️ Performance Notes
+##  Performance Notes
 
 * Comprehensions are often **faster** than equivalent `for` loops in Python due to C‑level optimizations.
 * Prefer `set` for membership tests when filtering (`if x in big_set`).
@@ -158,7 +158,7 @@ sum_of_squares = sum(n*n for n in range(1, 1_000_001))
 
 ---
 
-## 🧪 Mini Exercises
+##  Mini Exercises
 
 1. Build `[n for n in range(50) if n % 7 == 0]`.
 2. From `words = ["apple", "", "kiwi", "banana", " "]`, produce non‑empty, trimmed words.
@@ -183,7 +183,7 @@ squares = [n*n for n in range(6) if n % 2 == 0]
 
 ---
 
-## 🧷 Copy‑paste Snippets
+## Copy‑paste Snippets
 
 ```python
 # Filter then map
@@ -201,20 +201,6 @@ squares = [n*n for n in range(6) if n % 2 == 0]
 # Streaming aggregation
 sum(h(x) for x in stream())
 ```
-
----
-
-## 📚 Further Reading
-
-* Official Python tutorial: *Data Structures*
-* `itertools` & `functools` for advanced iteration patterns
-
----
-
-## 📝 License
-
-MIT
-
 ---
 
 ## 🤝 Contributing
